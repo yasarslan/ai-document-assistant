@@ -1,0 +1,35 @@
+# Local instructions and personal notes
+AGENTS.md
+TASKS.md
+LOCAL_NOTES.md
+PROMPTS.md
+.codex/
+private/
+/tests/
+
+# Credentials and local configuration
+.env*
+!.env.example
+.streamlit/secrets.toml
+
+# Python / development environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# User PDFs, local data and logs
+*.[pP][dD][fF]
+uploads/
+data/
+*.log
+
+# Editor / operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
